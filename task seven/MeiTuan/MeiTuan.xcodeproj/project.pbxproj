@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830D587F1E71A8EB00DFC8FA /* shops.plist in Resources */ = {isa = PBXBuildFile; fileRef = 830D587E1E71A8EB00DFC8FA /* shops.plist */; };
+		830D58821E71B00000DFC8FA /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 830D58811E71B00000DFC8FA /* Shop.m */; };
+		8315FF701E705FAA00B0B952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315FF6F1E705FAA00B0B952 /* main.m */; };
+		8315FF731E705FAA00B0B952 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315FF721E705FAA00B0B952 /* AppDelegate.m */; };
+		8315FF761E705FAA00B0B952 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315FF751E705FAA00B0B952 /* ViewController.m */; };
+		8315FF791E705FAA00B0B952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF771E705FAA00B0B952 /* Main.storyboard */; };
+		8315FF7B1E705FAA00B0B952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF7A1E705FAA00B0B952 /* Assets.xcassets */; };
+		8315FF7E1E705FAA00B0B952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF7C1E705FAA00B0B952 /* LaunchScreen.storyboard */; };
+		8315FF941E70658E00B0B952 /* boiledchicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF861E70658E00B0B952 /* boiledchicken.png */; };
+		8315FF951E70658E00B0B952 /* bonesoup.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF871E70658E00B0B952 /* bonesoup.png */; };
+		8315FF961E70658E00B0B952 /* burgerking.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF881E70658E00B0B952 /* burgerking.png */; };
+		8315FF971E70658E00B0B952 /* curryfood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF891E70658E00B0B952 /* curryfood.png */; };
+		8315FF981E70658E00B0B952 /* dicos.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF8A1E70658E00B0B952 /* dicos.png */; };
+		8315FF9B1E70658E00B0B952 /* famouskitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF8D1E70658E00B0B952 /* famouskitchen.png */; };
+		8315FF9D1E70658E00B0B952 /* japanesefood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF8F1E70658E00B0B952 /* japanesefood.png */; };
+		8315FF9E1E70658E00B0B952 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF901E70658E00B0B952 /* pizza.png */; };
+		8315FF9F1E70658E00B0B952 /* spicychicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF911E70658E00B0B952 /* spicychicken.png */; };
+		8315FFA01E70658E00B0B952 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF921E70658E00B0B952 /* star.png */; };
+		8315FFA11E70658E00B0B952 /* starhighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 8315FF931E70658E00B0B952 /* starhighlighted.png */; };
+		8315FFA51E706A6400B0B952 /* ShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315FFA31E706A6400B0B952 /* ShopCell.m */; };
+		8315FFA61E706A6400B0B952 /* ShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8315FFA41E706A6400B0B952 /* ShopCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		830D587E1E71A8EB00DFC8FA /* shops.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shops.plist; sourceTree = "<group>"; };
+		830D58801E71B00000DFC8FA /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		830D58811E71B00000DFC8FA /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+		8315FF6B1E705FAA00B0B952 /* MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8315FF6F1E705FAA00B0B952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8315FF711E705FAA00B0B952 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8315FF721E705FAA00B0B952 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8315FF741E705FAA00B0B952 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8315FF751E705FAA00B0B952 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8315FF781E705FAA00B0B952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8315FF7A1E705FAA00B0B952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8315FF7D1E705FAA00B0B952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8315FF7F1E705FAA00B0B952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8315FF861E70658E00B0B952 /* boiledchicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boiledchicken.png; sourceTree = "<group>"; };
+		8315FF871E70658E00B0B952 /* bonesoup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonesoup.png; sourceTree = "<group>"; };
+		8315FF881E70658E00B0B952 /* burgerking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burgerking.png; sourceTree = "<group>"; };
+		8315FF891E70658E00B0B952 /* curryfood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curryfood.png; sourceTree = "<group>"; };
+		8315FF8A1E70658E00B0B952 /* dicos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dicos.png; sourceTree = "<group>"; };
+		8315FF8D1E70658E00B0B952 /* famouskitchen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = famouskitchen.png; sourceTree = "<group>"; };
+		8315FF8F1E70658E00B0B952 /* japanesefood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japanesefood.png; sourceTree = "<group>"; };
+		8315FF901E70658E00B0B952 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		8315FF911E70658E00B0B952 /* spicychicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spicychicken.png; sourceTree = "<group>"; };
+		8315FF921E70658E00B0B952 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8315FF931E70658E00B0B952 /* starhighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starhighlighted.png; sourceTree = "<group>"; };
+		8315FFA21E706A6400B0B952 /* ShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCell.h; sourceTree = "<group>"; };
+		8315FFA31E706A6400B0B952 /* ShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCell.m; sourceTree = "<group>"; };
+		8315FFA41E706A6400B0B952 /* ShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8315FF681E705FAA00B0B952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8315FF621E705FAA00B0B952 = {
+			isa = PBXGroup;
+			children = (
+				8315FF6D1E705FAA00B0B952 /* MeiTuan */,
+				8315FF6C1E705FAA00B0B952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8315FF6C1E705FAA00B0B952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8315FF6B1E705FAA00B0B952 /* MeiTuan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8315FF6D1E705FAA00B0B952 /* MeiTuan */ = {
+			isa = PBXGroup;
+			children = (
+				8315FF711E705FAA00B0B952 /* AppDelegate.h */,
+				8315FF721E705FAA00B0B952 /* AppDelegate.m */,
+				8315FF741E705FAA00B0B952 /* ViewController.h */,
+				8315FF751E705FAA00B0B952 /* ViewController.m */,
+				8315FFA21E706A6400B0B952 /* ShopCell.h */,
+				8315FFA31E706A6400B0B952 /* ShopCell.m */,
+				8315FFA41E706A6400B0B952 /* ShopCell.xib */,
+				830D58801E71B00000DFC8FA /* Shop.h */,
+				830D58811E71B00000DFC8FA /* Shop.m */,
+				8315FF771E705FAA00B0B952 /* Main.storyboard */,
+				8315FF7A1E705FAA00B0B952 /* Assets.xcassets */,
+				8315FF7C1E705FAA00B0B952 /* LaunchScreen.storyboard */,
+				8315FF7F1E705FAA00B0B952 /* Info.plist */,
+				8315FF6E1E705FAA00B0B952 /* Supporting Files */,
+			);
+			path = MeiTuan;
+			sourceTree = "<group>";
+		};
+		8315FF6E1E705FAA00B0B952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8315FF851E70658E00B0B952 /* pic */,
+				8315FF6F1E705FAA00B0B952 /* main.m */,
+				830D587E1E71A8EB00DFC8FA /* shops.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8315FF851E70658E00B0B952 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				8315FF861E70658E00B0B952 /* boiledchicken.png */,
+				8315FF871E70658E00B0B952 /* bonesoup.png */,
+				8315FF881E70658E00B0B952 /* burgerking.png */,
+				8315FF891E70658E00B0B952 /* curryfood.png */,
+				8315FF8A1E70658E00B0B952 /* dicos.png */,
+				8315FF8D1E70658E00B0B952 /* famouskitchen.png */,
+				8315FF8F1E70658E00B0B952 /* japanesefood.png */,
+				8315FF901E70658E00B0B952 /* pizza.png */,
+				8315FF911E70658E00B0B952 /* spicychicken.png */,
+				8315FF921E70658E00B0B952 /* star.png */,
+				8315FF931E70658E00B0B952 /* starhighlighted.png */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8315FF6A1E705FAA00B0B952 /* MeiTuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8315FF821E705FAA00B0B952 /* Build configuration list for PBXNativeTarget "MeiTuan" */;
+			buildPhases = (
+				8315FF671E705FAA00B0B952 /* Sources */,
+				8315FF681E705FAA00B0B952 /* Frameworks */,
+				8315FF691E705FAA00B0B952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeiTuan;
+			productName = MeiTuan;
+			productReference = 8315FF6B1E705FAA00B0B952 /* MeiTuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8315FF631E705FAA00B0B952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jikexueyuan;
+				TargetAttributes = {
+					8315FF6A1E705FAA00B0B952 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8315FF661E705FAA00B0B952 /* Build configuration list for PBXProject "MeiTuan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8315FF621E705FAA00B0B952;
+			productRefGroup = 8315FF6C1E705FAA00B0B952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8315FF6A1E705FAA00B0B952 /* MeiTuan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8315FF691E705FAA00B0B952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8315FF9F1E70658E00B0B952 /* spicychicken.png in Resources */,
+				8315FF941E70658E00B0B952 /* boiledchicken.png in Resources */,
+				8315FF9D1E70658E00B0B952 /* japanesefood.png in Resources */,
+				8315FF9E1E70658E00B0B952 /* pizza.png in Resources */,
+				8315FFA01E70658E00B0B952 /* star.png in Resources */,
+				8315FFA11E70658E00B0B952 /* starhighlighted.png in Resources */,
+				8315FF971E70658E00B0B952 /* curryfood.png in Resources */,
+				8315FF951E70658E00B0B952 /* bonesoup.png in Resources */,
+				8315FF9B1E70658E00B0B952 /* famouskitchen.png in Resources */,
+				8315FFA61E706A6400B0B952 /* ShopCell.xib in Resources */,
+				8315FF7E1E705FAA00B0B952 /* LaunchScreen.storyboard in Resources */,
+				830D587F1E71A8EB00DFC8FA /* shops.plist in Resources */,
+				8315FF7B1E705FAA00B0B952 /* Assets.xcassets in Resources */,
+				8315FF791E705FAA00B0B952 /* Main.storyboard in Resources */,
+				8315FF981E70658E00B0B952 /* dicos.png in Resources */,
+				8315FF961E70658E00B0B952 /* burgerking.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8315FF671E705FAA00B0B952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830D58821E71B00000DFC8FA /* Shop.m in Sources */,
+				8315FF761E705FAA00B0B952 /* ViewController.m in Sources */,
+				8315FF731E705FAA00B0B952 /* AppDelegate.m in Sources */,
+				8315FF701E705FAA00B0B952 /* main.m in Sources */,
+				8315FFA51E706A6400B0B952 /* ShopCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8315FF771E705FAA00B0B952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8315FF781E705FAA00B0B952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8315FF7C1E705FAA00B0B952 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8315FF7D1E705FAA00B0B952 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8315FF801E705FAA00B0B952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8315FF811E705FAA00B0B952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8315FF831E705FAA00B0B952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeiTuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikexueyuan.MeiTuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8315FF841E705FAA00B0B952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeiTuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikexueyuan.MeiTuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8315FF661E705FAA00B0B952 /* Build configuration list for PBXProject "MeiTuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8315FF801E705FAA00B0B952 /* Debug */,
+				8315FF811E705FAA00B0B952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8315FF821E705FAA00B0B952 /* Build configuration list for PBXNativeTarget "MeiTuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8315FF831E705FAA00B0B952 /* Debug */,
+				8315FF841E705FAA00B0B952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8315FF631E705FAA00B0B952 /* Project object */;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[WaterFallFlowLayout layoutItemAtIndexPath:]:WaterFallFlowLayout.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WaterFallFlowLayout prepareLayout]:WaterFallFlowLayout.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_cellCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController collectionView:layout:sizeForItemAtIndexPath:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[WaterFallFlowLayout collectionViewContentSize]:WaterFallFlowLayout.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "rect">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
